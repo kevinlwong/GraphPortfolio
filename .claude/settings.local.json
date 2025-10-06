@@ -1,9 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run build:*)",
+      "Bash(yarn build:*)",
+      "Bash(yarn build)",
       "mcp__ide__getDiagnostics",
-      "Bash(npm run dev:*)"
+      "Bash(yarn dev:*)",
+      "Bash(yarn dev)"
     ],
     "deny": [],
     "ask": []
